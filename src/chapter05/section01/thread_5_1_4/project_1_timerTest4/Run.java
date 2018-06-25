@@ -21,6 +21,6 @@ public class Run {
 		System.out.println("当前时间:" + new Date());
 		timer.schedule(task,3000, 7000);
 		
-	} 
+	}
 	
 }

@@ -11,7 +11,7 @@ public class WriteData {
 			for (int i = 0; i < 300; i++) {
 				String outData = "" + (i + 1);
 				out.write(outData);
-				System.out.print(outData);
+				System.out.println("writeMethod: " + outData);
 			}
 			System.out.println();
 			out.close();

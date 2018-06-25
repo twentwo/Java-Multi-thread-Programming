@@ -13,7 +13,7 @@ public class Run1 {
 		b.setName("B");
 
 		a.start();
-		Thread.sleep(50);// ����50����
+		Thread.sleep(50);// 存在50毫秒
 		b.start();
 	}
 }

@@ -8,6 +8,9 @@ public class MyService {
 			synchronized (lock) {
 				System.out.println(Thread.currentThread().getName() + " begin "
 						+ System.currentTimeMillis());
+				if ("456".equals(lock)) {
+					System.out.println("lock = \"456\"");
+				}
 				lock = "456";
 				Thread.sleep(2000);
 				System.out.println(Thread.currentThread().getName() + "   end "

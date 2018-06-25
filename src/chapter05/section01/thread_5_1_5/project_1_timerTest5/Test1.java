@@ -12,9 +12,9 @@ public class Test1 {
 		@Override
 		public void run() {
 			try {
-				System.out.println("begin timer = "+ System.currentTimeMillis());
+				System.out.println("begin timer = "+ new Date());
 				Thread.sleep(1000);
-				System.out.println("  end timer = "+ System.currentTimeMillis());
+				System.out.println("  end timer = "+ new Date());
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

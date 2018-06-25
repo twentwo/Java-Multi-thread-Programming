@@ -19,6 +19,7 @@ public class Run {
 		threadB.setName("B");
 		threadB.start();
 		threadB.interrupt();
+		System.out.println("main end!");
 	}
 }
 

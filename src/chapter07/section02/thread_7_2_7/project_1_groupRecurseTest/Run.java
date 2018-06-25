@@ -26,6 +26,7 @@ public class Run {
 		for (int i = 0; i < listGroup1.length; i++) {
 			if (listGroup1[i] != null) {
 				System.out.println(listGroup1[i].getName());
+				System.out.println("======");
 			}
 		}
 		ThreadGroup[] listGroup2 = new ThreadGroup[Thread.currentThread()

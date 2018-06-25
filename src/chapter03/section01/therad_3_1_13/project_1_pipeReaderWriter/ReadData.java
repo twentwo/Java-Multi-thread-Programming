@@ -12,7 +12,7 @@ public class ReadData {
 			int readLength = input.read(byteArray);
 			while (readLength != -1) {
 				String newData = new String(byteArray, 0, readLength);
-				System.out.print(newData);
+				System.out.println("readMethod: " + newData);
 				readLength = input.read(byteArray);
 			}
 			System.out.println();

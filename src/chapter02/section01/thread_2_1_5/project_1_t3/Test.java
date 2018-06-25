@@ -8,7 +8,7 @@ public class Test {
 			ThreadA thread = new ThreadA(publicVarRef);
 			thread.start();
 
-			Thread.sleep(200);// ��ӡ����ܴ�ֵ��СӰ��
+			Thread.sleep(200);//打印结果受此值影响
 
 			publicVarRef.getValue();
 		} catch (InterruptedException e) {

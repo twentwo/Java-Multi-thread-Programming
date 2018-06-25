@@ -16,6 +16,8 @@ public class MyService {
 				String newString = new String();
 				Math.random();
 			}
+			System.out
+					.println("lock   end " + Thread.currentThread().getName());
 		} catch (InterruptedException e) {
 			System.out.println("线程"+Thread.currentThread().getName()+"进入catch~!");
 			e.printStackTrace();

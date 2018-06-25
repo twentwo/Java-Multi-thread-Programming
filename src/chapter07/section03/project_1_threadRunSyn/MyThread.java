@@ -6,7 +6,8 @@ public class MyThread extends Thread {
 	private String showChar;
 	private int showNumPosition;
 
-	private int printCount = 0;// 统计打印了几个字母
+	// 统计打印了几个字母
+	private int printCount = 0;
 
 	volatile private static int addNumber = 1;
 
